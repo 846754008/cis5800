@@ -1,0 +1,38 @@
+.testing1{
+    color:black;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ 
+}
+#firstp{
+    font-size: 25px;
+    background-color: grey;
+    color: white;
+}
+#profile{
+    background-color: black;
+    text-align: center;
+}
+#paragraph{
+    /* text-align: center;
+    background-color: cornflowerblue;
+    font-size: 20px; */
+    margin: auto;
+    width: 60%;
+    border: 3px solid black;
+    padding: 10px;
+    background-color: white;
+}
+
+*   {
+    margin:0; 
+    padding:0;
+}
+body{
+    background-image: url(image/pimage.jpeg);
+}
+div.heading{
+    font-size: 40px;
+    background-color: black;
+    color: white;
+}
