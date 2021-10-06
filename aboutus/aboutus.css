@@ -1,4 +1,5 @@
 
+
 .testing1{
     color:black;
     font-size: 30px;
@@ -6,11 +7,11 @@
  
 }
 
-.navbar {
+.nav {
     background-color: #333; 
   }
   
-  .navbar a {
+  .nav a {
     float: left;
     font-size: 16px;
     color: white;
@@ -35,7 +36,7 @@
     margin: 0;
   }
   
-  .navbar a:hover, .subnav:hover .subnavbtn {
+  .nav a:hover, .subnav:hover .subnavbtn {
     background-color: #FC390F;
   }
   
@@ -86,6 +87,7 @@
 *   {
     margin:0; 
     padding:0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 div.heading{
@@ -96,8 +98,11 @@ div.heading{
 
 
 #teamTitle{
-    font-size: 50px;
+    font-size: 80px;
     text-align: center;
+    font-weight: 700;
+    color: black;
+    
 }
 
 #section-text{
@@ -113,14 +118,16 @@ div.heading{
     font-size: 20pt;
     border-radius: 5pt;
     box-shadow: 1px 1px 20px 1px grey;
-    background-color: white;
+    color: white;
+    background-color: rgba(0,0,0,0.4);
+    
 }
 
 .section{
     margin: 0 ;
   width: auto;
   height: auto;
-  background: url("/aboutus/image/project-background.jpeg") no-repeat center fixed ;
+  background: url("/aboutus/image/NYC\ Background.jpeg") no-repeat center fixed ;
     background-size: cover;
   position: relative;
   overflow: hidden;
@@ -128,7 +135,7 @@ div.heading{
 
 
 .members{
-    background-image:linear-gradient(cornflowerblue, white);
+    background-image:linear-gradient(#9dbee1, white);
   height: auto;
   width: 100%;
   text-align: center;
@@ -137,8 +144,15 @@ div.heading{
   justify-content: center;
 }
 
+.members-title h1{
+    margin-top: 10%;
+    font-size: 50px;
+    font-weight: 600;
+}
+
 .card{
     margin-top: 100px;
+    border-radius: 1.25rem;
 }
 
 .card-text, .card-body li{
@@ -156,15 +170,18 @@ div.heading{
 .project-section{
     color: white;
     height: 800px;
-    background: url("/aboutus/image/team\ project\ background.jpeg") no-repeat center fixed ;
+    background: url("/aboutus/image/star\ background.jpeg") no-repeat center fixed ;
     background-size: cover;
 }
 
 .project-section h1{
     font-size: 100px;
     text-align: center;
+    font-weight: 600;
 }
 .project-section p{
+    position: relative;
+    left: 27%;
     text-align: left;
     max-width: 50%;
 }
