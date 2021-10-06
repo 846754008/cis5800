@@ -1,3 +1,1 @@
-
-<?php
-include_once("pdocument.php");
+<?php include_once("pdocument.html");

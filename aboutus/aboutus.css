@@ -28,9 +28,7 @@
     margin:0; 
     padding:0;
 }
-body{
-    background-image: url(image/pimage.jpeg);
-}
+
 div.heading{
     font-size: 40px;
     background-color: black;
