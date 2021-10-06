@@ -97,11 +97,12 @@ div.heading{
 
 #teamTitle{
     font-size: 50px;
+    text-align: center;
 }
 
 #section-text{
     position: relative;
-    left: 20%;
+    left: 25%;
     width: 50%;
     margin-top: 40px;
     margin-bottom: 100px;
@@ -112,28 +113,19 @@ div.heading{
     font-size: 20pt;
     border-radius: 5pt;
     box-shadow: 1px 1px 20px 1px grey;
+    background-color: white;
 }
 
 .section{
     margin: 0 ;
   width: auto;
   height: auto;
-  background: white;
+  background: url("/aboutus/image/project-background.jpeg") no-repeat center fixed ;
+    background-size: cover;
   position: relative;
   overflow: hidden;
 }
 
-.members::before{
-    content:"";
-    position: relative;
-    height: 150px;
-    width: 239.8%;
-  left: -70%;
-  right: -10%;
-  border-radius: 50%;
-  bottom: 71px;
-  background: #fff;
-}
 
 .members{
     background-image:linear-gradient(cornflowerblue, white);
@@ -162,9 +154,19 @@ div.heading{
   top: 30px;
 }
 .project-section{
-    height: 1000px;
-    background: url("/aboutus/image/project-background.jpeg") no-repeat center fixed ;
+    color: white;
+    height: 800px;
+    background: url("/aboutus/image/team\ project\ background.jpeg") no-repeat center fixed ;
     background-size: cover;
+}
+
+.project-section h1{
+    font-size: 100px;
+    text-align: center;
+}
+.project-section p{
+    text-align: left;
+    max-width: 50%;
 }
 
 
