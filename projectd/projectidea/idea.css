@@ -68,3 +68,10 @@ body{
     background-image: url('/image/idea\ background.jpeg');
     background-size: cover;
 }
+
+video{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    position: relative;
+    left: 26%;
+}
