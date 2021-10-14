@@ -65,6 +65,9 @@ body {
   }
   #fastplate{
     text-align: center;
-    background-color: #173758;
+    /* background-color: #173758; */
   }
-
+  #jira{
+    text-align: center;
+    color:blue;
+  }
