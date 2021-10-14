@@ -67,7 +67,10 @@ body {
     text-align: center;
     /* background-color: #173758; */
   }
-  #jira{
-    text-align: center;
-    color:blue;
-  }
+#jira{
+  margin-left: 340px; 
+  padding-right: 100px;
+  font-size: 18px;
+  padding-left: 100px;
+ 
+}
