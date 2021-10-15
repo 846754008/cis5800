@@ -1,2 +1,2 @@
 <?php
-include_once("projectm.html");
+include_once("jiraview.html");
